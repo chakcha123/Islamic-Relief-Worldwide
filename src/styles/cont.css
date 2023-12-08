@@ -1,0 +1,78 @@
+
+/* --------------------------------------contactus1---------------------------------------- */
+
+.l-img{
+    max-width: 70%;
+    margin-left: 70px;
+    margin: 20px;
+}
+.abt1-m{ 
+    display: flex;
+    max-width: 1130px;
+    justify-content: center;
+    
+}
+.r-img{
+    width: 90px; 
+    height: auto;  
+    margin-right: 10px;
+    padding: 20px;
+
+
+   }
+.info-line{
+    line-height: 0.5;
+}
+.righte-side{
+    max-width: 600px;
+
+}
+.r-info{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* ---------------------------------------contactus2---------------------------------------- */
+.pc{
+    text-align: center;
+}
+.inp1 input[type="text"] ,.inp2 input[type="text"]{
+    height: 50px;
+    width: 550px;
+    margin: 10px;
+    background-color: #F8F8F8;
+    border: #DDDDDD 1px solid;
+ }
+ .msg-box{
+    height: 170px;
+    width: 1130px;
+    margin: 10px;
+    background-color: #F8F8F8;
+    border: #DDDDDD 1px solid;
+ }
+ .abt2-m{
+        text-align: center;
+        margin-bottom: 30px;
+ }
+ .VBOX2{
+    height: 7px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+
+ }
+ .VBOX3{
+    height: 11px;
+    margin-right: 4px;
+
+ }
+
+ @media screen and (max-width:990px){
+   
+    .msg-box{
+        height: 150px;
+        width: 550px;    
+    }
+
+}

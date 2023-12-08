@@ -1,0 +1,63 @@
+.line {
+  text-align: center;
+}
+
+.b2 {
+  width: 10px;
+  margin-right: 4px;
+}
+
+.sform {
+  background-color: #F8F8F8;
+  justify-content: center;
+  text-align: center;
+  width: 696px;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+
+.sform input {
+  width: 464px;
+  height: 65px;
+  margin: 4px;
+  border: 2px solid #DDDDDD;
+}
+
+.sub-btn {
+  width: 464px;
+  height: 65px;
+  background-color: #3498db; /* Updated color code */
+  border: 1px solid #3498db; /* Updated color code */
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.sub-btn:hover {
+  border: 2px solid #3498db; /* Updated color code */
+  color: #3498db; /* Updated color code */
+  background-color: #fff;
+}
+
+.sform input[type="checkbox"] {
+  width: 15px;
+}
+
+.ass {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.ass label {
+  margin-right: 10px;
+}
+
+.vlink {
+  color: #3498db; /* Updated color code */
+  text-decoration: none;
+}

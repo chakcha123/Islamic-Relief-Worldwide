@@ -1,0 +1,42 @@
+.ico {
+    height: 50px;
+}
+
+.ver {
+    color: #71d07b; /* Updated color code */
+}
+
+.mov {
+    color: #3498db; /* Updated color code */
+}
+
+#sub-btn {
+    background-color: #3498db; /* Updated color code */
+    border: #3498db; /* Updated color code */
+    color: white;
+}
+
+#sub-btn:hover {
+    background-color: white;
+    border: 2px solid #3498db; /* Updated color code */
+    color: #3498db; /* Updated color code */
+}
+
+.fot-form {
+    background-color: #474950;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 990px) {
+    #infos {
+        width: 250px;
+        font-size: small;
+        margin: -30px;
+    }
+    .ico {
+        height: 35px;
+    }
+    #infocont {
+        width: 500px;
+    }
+}

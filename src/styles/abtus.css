@@ -1,0 +1,34 @@
+/*#3498db    #40DDB6     */
+#flex-d{
+    display: flex;
+    justify-content: space-between;
+}
+.more-btn{
+    background-color: #3498db; 
+    border: 1px solid #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.more-btn:hover{
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: #fff;
+}
+
+
+.banner {
+  width: 100%; 
+  height: auto; 
+}
+@media screen and (max-width:990px){
+    #flex-d{
+        display:block;
+        width: 900px;
+        align-items: center;
+        justify-content: center;/* 
+        justify-content: space-between;
+        margin: auto; */
+    }
+}

@@ -1,0 +1,48 @@
+/* donate.css */
+
+.D-form {
+    background-color: #ffffff;
+    color: #3498db;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  .D-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .d-div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .d-div-inner {
+    flex: 1;
+  }
+  
+  .D-EX-inpt,
+  .D-CV-inpt {
+    max-width: 205px; /* Set the width to 45% for Expires and CVC inputs */
+  }
+  
+  .D-BTN {
+    background-color: #3498db;
+    border:1px solid #3498db;
+    color: #ffffff;
+    padding: 10px ;
+    cursor: pointer;
+  }
+  .D-BTN:hover {
+    background-color: white;
+    border:2px solid #3498db;
+    color: #3498db;
+    padding: 10px ;
+    cursor: pointer;
+  }
+  

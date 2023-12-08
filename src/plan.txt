@@ -1,0 +1,35 @@
+User{
+    "firstName": ,
+    "lastName": ,
+    "phoneNumber": ,
+    "email":,
+    "password": ,
+    "isAssociation": true
+}
+donation_lis{
+    id :'',
+    Title:'',
+    Text:'',
+    Img:''
+}
+Post{
+    id :'',
+    Title:'',
+    Text:'',
+    Img:''
+}
+SingleUser{
+    "firstName": ,
+    "lastName": ,
+    "phoneNumber": ,
+    "email":,
+    "password": ,
+    "isAssociation": true,
+    donation_lis{
+        id :'',
+        Title:'',
+        Text:'',
+        Img:''
+        },
+}
+

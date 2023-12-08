@@ -1,0 +1,55 @@
+.back {
+    height: 40vh;
+    position: relative;
+  }
+  .back img {
+    height: 100%;
+    width: 64%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+  }
+  .back::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: #07101DA0;
+    z-index: -1;
+  }
+  .back .b-Container {
+    color: #fff;
+    padding: 120px 80px;
+    max-width: 540px;
+
+  }
+  .back h2 {
+    font-size: 40px;
+    font-weight: 500;
+
+  }
+ 
+  @media screen and (max-width: 990px) {
+   
+    .back .b-Container {
+      max-width: 90%;
+      padding-top: 290px; 
+    }
+
+    .back::after{
+      height: 50vh;
+    }
+    .back img{
+      height: 100%;
+      width: 100%;
+    }
+   
+    .back {
+      height: 30vh;
+      margin-bottom: 190px;
+    }
+  }
